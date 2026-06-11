@@ -1,0 +1,511 @@
+{
+  "teachers": [
+    {
+      "id": "t1",
+      "name": "Lê Hoàng Nam",
+      "email": "nam.le@sasuco.edu.vn",
+      "phone": "0901234567",
+      "specialty": "UI/UX Design",
+      "status": "active"
+    },
+    {
+      "id": "t2",
+      "name": "Trần Mai Linh",
+      "email": "linh.tran@sasuco.edu.vn",
+      "phone": "0902345678",
+      "specialty": "Digital Marketing",
+      "status": "active"
+    },
+    {
+      "id": "t3",
+      "name": "Nguyễn Quốc Huy",
+      "email": "huy.nguyen@sasuco.edu.vn",
+      "phone": "0903456789",
+      "specialty": "Lập trình Web",
+      "status": "active"
+    },
+    {
+      "id": "t4",
+      "name": "Phạm Thanh Hà",
+      "email": "ha.pham@sasuco.edu.vn",
+      "phone": "0904567890",
+      "specialty": "Tiếng Anh giao tiếp",
+      "status": "active"
+    }
+  ],
+  "students": [
+    {
+      "id": "s1",
+      "name": "Nguyễn Minh Khang",
+      "email": "khang.nguyen@gmail.com",
+      "phone": "0911000001",
+      "joinedAt": "2026-04-08",
+      "status": "active"
+    },
+    {
+      "id": "s2",
+      "name": "Lê Thảo Vy",
+      "email": "vy.le@gmail.com",
+      "phone": "0911000002",
+      "joinedAt": "2026-04-12",
+      "status": "active"
+    },
+    {
+      "id": "s3",
+      "name": "Trần Gia Hân",
+      "email": "han.tran@gmail.com",
+      "phone": "0911000003",
+      "joinedAt": "2026-05-03",
+      "status": "active"
+    },
+    {
+      "id": "s4",
+      "name": "Phạm Minh Quân",
+      "email": "quan.pham@gmail.com",
+      "phone": "0911000004",
+      "joinedAt": "2026-05-17",
+      "status": "active"
+    },
+    {
+      "id": "s5",
+      "name": "Võ Khánh Linh",
+      "email": "linh.vo@gmail.com",
+      "phone": "0911000005",
+      "joinedAt": "2026-06-01",
+      "status": "active"
+    },
+    {
+      "name": "Lê Quốc Đạt",
+      "email": "datlq13@gmail.com",
+      "phone": "0904554124",
+      "joinedAt": "2026-06-11",
+      "status": "active",
+      "id": "KxRpWh70Umc"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "r1",
+      "name": "Phòng A.302",
+      "capacity": 40,
+      "status": "active"
+    },
+    {
+      "id": "r2",
+      "name": "Phòng B.201",
+      "capacity": 32,
+      "status": "active"
+    },
+    {
+      "id": "r3",
+      "name": "Phòng Lab 01",
+      "capacity": 24,
+      "status": "active"
+    },
+    {
+      "id": "r4",
+      "name": "Phòng C.105",
+      "capacity": 36,
+      "status": "active"
+    }
+  ],
+  "courses": [
+    {
+      "id": "c1",
+      "name": "UI/UX Design chuyên nghiệp",
+      "code": "UIUX-2601",
+      "description": "Thiết kế trải nghiệm và giao diện sản phẩm số.",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "startDate": "2026-06-08",
+      "endDate": "2026-07-03",
+      "schedulePattern": "2-4-6",
+      "startTime": "08:30",
+      "endTime": "10:30",
+      "sessionCount": 12,
+      "status": "In-Progress",
+      "createdAt": "2026-05-20"
+    },
+    {
+      "id": "c2",
+      "name": "Digital Marketing thực chiến",
+      "code": "DMKT-2602",
+      "description": "Xây dựng và vận hành chiến dịch marketing đa kênh.",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "startDate": "2026-06-15",
+      "endDate": "2026-07-10",
+      "schedulePattern": "2-4-6",
+      "startTime": "13:30",
+      "endTime": "15:30",
+      "sessionCount": 12,
+      "status": "Planned",
+      "createdAt": "2026-05-23"
+    },
+    {
+      "id": "c3",
+      "name": "Lập trình React nâng cao",
+      "code": "REACT-2603",
+      "description": "Kiến trúc và kỹ thuật xây dựng ứng dụng React.",
+      "teacherId": "t3",
+      "roomId": null,
+      "startDate": null,
+      "endDate": null,
+      "schedulePattern": null,
+      "startTime": null,
+      "endTime": null,
+      "sessionCount": 12,
+      "status": "Assigned",
+      "createdAt": "2026-06-01"
+    },
+    {
+      "id": "c4",
+      "name": "Tiếng Anh giao tiếp công sở",
+      "code": "ENG-2604",
+      "description": "Giao tiếp tự tin trong môi trường doanh nghiệp.",
+      "teacherId": null,
+      "roomId": null,
+      "startDate": null,
+      "endDate": null,
+      "schedulePattern": null,
+      "startTime": null,
+      "endTime": null,
+      "sessionCount": 15,
+      "status": "Created",
+      "createdAt": "2026-06-05"
+    },
+    {
+      "id": "c5",
+      "name": "Workshop Thiết kế sản phẩm số",
+      "code": "WUX-2605",
+      "description": "Workshop thực hành thiết kế sản phẩm số.",
+      "teacherId": "t1",
+      "roomId": "r4",
+      "startDate": "2026-06-09",
+      "endDate": "2026-06-20",
+      "schedulePattern": "3-5-7",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "sessionCount": 6,
+      "status": "In-Progress",
+      "createdAt": "2026-06-04"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ss1",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-06-08",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss2",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-06-10",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss3",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-06-12",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss4",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-06-15",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss5",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-06-17",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss6",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-06-19",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss7",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-06-22",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss8",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-06-24",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss9",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-06-26",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss10",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-06-29",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss11",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-07-01",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss12",
+      "courseId": "c1",
+      "teacherId": "t1",
+      "roomId": "r1",
+      "date": "2026-07-03",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    {
+      "id": "ss13",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-06-15",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss14",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-06-17",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss15",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-06-19",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss16",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-06-22",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss17",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-06-24",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss18",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-06-26",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss19",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-06-29",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss20",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-07-01",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss21",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-07-03",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss22",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-07-06",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss23",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-07-08",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss24",
+      "courseId": "c2",
+      "teacherId": "t2",
+      "roomId": "r2",
+      "date": "2026-07-10",
+      "startTime": "13:30",
+      "endTime": "15:30"
+    },
+    {
+      "id": "ss25",
+      "courseId": "c5",
+      "teacherId": "t1",
+      "roomId": "r4",
+      "date": "2026-06-09",
+      "startTime": "18:00",
+      "endTime": "20:00"
+    },
+    {
+      "id": "ss26",
+      "courseId": "c5",
+      "teacherId": "t1",
+      "roomId": "r4",
+      "date": "2026-06-11",
+      "startTime": "18:00",
+      "endTime": "20:00"
+    },
+    {
+      "id": "ss27",
+      "courseId": "c5",
+      "teacherId": "t1",
+      "roomId": "r4",
+      "date": "2026-06-13",
+      "startTime": "18:00",
+      "endTime": "20:00"
+    },
+    {
+      "id": "ss28",
+      "courseId": "c5",
+      "teacherId": "t1",
+      "roomId": "r4",
+      "date": "2026-06-16",
+      "startTime": "18:00",
+      "endTime": "20:00"
+    },
+    {
+      "id": "ss29",
+      "courseId": "c5",
+      "teacherId": "t1",
+      "roomId": "r4",
+      "date": "2026-06-18",
+      "startTime": "18:00",
+      "endTime": "20:00"
+    },
+    {
+      "id": "ss30",
+      "courseId": "c5",
+      "teacherId": "t1",
+      "roomId": "r4",
+      "date": "2026-06-20",
+      "startTime": "18:00",
+      "endTime": "20:00"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "e1",
+      "studentId": "s1",
+      "courseId": "c1",
+      "enrolledAt": "2026-05-25",
+      "status": "active"
+    },
+    {
+      "id": "e2",
+      "studentId": "s2",
+      "courseId": "c1",
+      "enrolledAt": "2026-05-26",
+      "status": "active"
+    },
+    {
+      "id": "e3",
+      "studentId": "s3",
+      "courseId": "c1",
+      "enrolledAt": "2026-05-28",
+      "status": "active"
+    },
+    {
+      "id": "e4",
+      "studentId": "s1",
+      "courseId": "c2",
+      "enrolledAt": "2026-06-02",
+      "status": "active"
+    },
+    {
+      "id": "e5",
+      "studentId": "s4",
+      "courseId": "c2",
+      "enrolledAt": "2026-06-03",
+      "status": "active"
+    }
+  ],
+  "settings": [
+    {
+      "id": "app",
+      "teacherWeeklySessionLimit": 6,
+      "pageSize": 5
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
